@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.smartstorageunit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:5:5-67
+11-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:6:5-79
+12-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:7:5-76
+13-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:7:22-73
+14
+15    <application
+15-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:9:5-35:19
+16        android:allowBackup="true"
+16-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.1] C:\Users\Stefan\.gradle\caches\transforms-2\files-2.1\51ec9767ead7a598d20dd24a7369e6f6\core-1.0.1\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/icon"
+20-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:11:9-36
+21        android:label="@string/app_name"
+21-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:12:9-41
+22        android:supportsRtl="true"
+22-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:13:9-35
+23        android:theme="@style/AppTheme.NoActionBar"
+23-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:14:9-52
+24        android:usesCleartextTraffic="true" >
+24-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:15:9-44
+25        <activity
+25-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:16:9-18:51
+26            android:name="com.smartstorageunit.WithdrawItem"
+26-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:17:13-41
+27            android:screenOrientation="portrait" />
+27-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:18:13-49
+28        <activity
+28-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:19:9-21:52
+29            android:name="com.smartstorageunit.StoreItem"
+29-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:20:13-38
+30            android:screenOrientation="portrait" />
+30-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:21:13-49
+31        <activity
+31-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:22:9-24:52
+32            android:name="com.smartstorageunit.WindowController"
+32-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:23:13-45
+33            android:screenOrientation="portrait" />
+33-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:24:13-49
+34        <activity
+34-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:25:9-34:20
+35            android:name="com.smartstorageunit.Login"
+35-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:26:13-34
+36            android:screenOrientation="portrait" >
+36-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:27:13-49
+37            <intent-filter>
+37-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:28:13-33:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:29:17-69
+38-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:29:25-66
+39                <action android:name="android.intent.action.VIEW" />
+39-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:30:17-68
+39-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:30:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:32:17-77
+41-->F:\Projekte\AndroidStudio\SmartStorageUnit\app\src\main\AndroidManifest.xml:32:27-74
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>

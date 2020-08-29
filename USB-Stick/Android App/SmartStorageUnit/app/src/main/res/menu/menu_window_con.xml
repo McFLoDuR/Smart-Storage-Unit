@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/storage">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/mNewItem"
+                android:title="@string/newItem"
+                android:orderInCategory="2"/>
+            <item
+                android:id="@+id/mOverview"
+                android:title="@string/menuOverview"
+                android:orderInCategory="1"/>
+            <item
+                android:id="@+id/mInventoryReport"
+                android:title="@string/inventoryReport"
+                android:orderInCategory="3"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/settings">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/mCorrectQuantity"
+                    android:title="@string/correctQuantity" />
+                <item
+                    android:id="@+id/mDeleteStoragePos"
+                    android:title="@string/deleteStoragePos" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutStorageBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ImageView
+        android:id="@+id/ivStorageBox"
+        android:layout_width="184dp"
+        android:layout_height="511dp"
+        app:srcCompat="@mipmap/storage_slot000"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/txtStorageBoxTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Put the items in the marked space"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <TextView
+        android:id="@+id/txtStorageBoxColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The storage slot should have the color:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <ImageView
+        android:id="@+id/ivColor"
+        android:layout_width="247dp"
+        android:layout_height="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@color/black"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/btnStore"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:onClick="btnStoreClicked"
+        android:text="@string/store"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="643dp" />
+
+    <Button
+        android:id="@+id/btnPrev"
+        android:layout_width="69dp"
+        android:layout_height="94dp"
+        android:onClick="btnPrevClicked"
+        android:text="Prev"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="69dp"
+        android:layout_height="94dp"
+        android:onClick="btnNextClicked"
+        android:text="next"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <CheckBox
+        android:id="@+id/cbDiv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cbDivider3Change"
+        android:text="@string/divider3"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <CheckBox
+        android:id="@+id/cbDiv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cbDivider2Change"
+        android:text="@string/divider2"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <CheckBox
+        android:id="@+id/cbDiv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cbDivider1Change"
+        android:text="@string/divider1"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <Spinner
+        android:id="@+id/spPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <TextView
+        android:id="@+id/txtPostition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/position"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="624dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

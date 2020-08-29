@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constLayoutNewItem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:theme="@style/AppTheme.NoActionBar">
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:onClick="btnDeleteClicked"
+        android:text="Delete"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/actxtType"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Item type"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actxtArticleNum"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/articleNumber"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actxtItemVersion"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="Specific type"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <EditText
+        android:id="@+id/txtWebsite"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Website"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actxtReferenceName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Reference"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <EditText
+        android:id="@+id/txtValue"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/value"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actxtUnit"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/unit"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:onClick="btnAddClicked"
+        android:text="Add"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <ListView
+        android:id="@+id/lvItemReferences"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <CheckBox
+        android:id="@+id/chbAlarmActive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set Alarm"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

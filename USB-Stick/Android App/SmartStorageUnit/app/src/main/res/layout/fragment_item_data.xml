@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constLayoutItemData"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTypeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <TextView
+        android:id="@+id/txtTypeVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+    <TextView
+        android:id="@+id/txtVArticleNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/articleNumber"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <TextView
+        android:id="@+id/txtArticleNum"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <ListView
+        android:id="@+id/lvItemData"
+        android:layout_width="350dp"
+        android:layout_height="570dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <TextView
+        android:id="@+id/txtQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quantity"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/txtQuantityNum"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <CheckBox
+        android:id="@+id/chbSetAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set Alarm"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

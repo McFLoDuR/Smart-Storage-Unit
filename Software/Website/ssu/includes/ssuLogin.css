@@ -1,0 +1,110 @@
+/*         */
+/* General */
+/*         */
+
+* {
+  font-family: Arial, Calibri, Comic Sans MS, Cambria;
+  font-size: 26px;
+}
+
+body {
+  margin: 0px;
+  background-color: #2d3260;
+  overflow: hidden;
+}
+
+/*             */
+/* Page Header */
+/*             */
+
+#logo {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+  max-height: 30%;
+}
+
+#loginTitle {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+#error {
+  font-size: 14px;
+  text-align: center;
+  color: red;
+}
+
+/*              */
+/* Main Content */
+/*              */
+
+#formDiv {
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#loginForm {
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #606593;
+  text-align: center;
+}
+
+#loginForm span {
+  text-align: left;
+  margin-right: 70%;
+}
+
+input {
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid #2d3260;
+  outline: none;
+}
+
+input[type="text"],
+input[type="password"] {
+  text-align: center;
+  transition: 0.5s;
+}
+
+input[type="submit"] {
+  width: 50%;
+  transition: 0.5s;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="text"]:focus {
+  background-color: #d8dcfd;
+}
+
+input[type="submit"]:hover {
+  background-color: #2d3260;
+  color: white;
+  border-radius: 10px;
+  border: 3px solid #2d3260;
+  cursor: pointer;
+}
+
+/*        */
+/* Footer */
+/*        */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #2d3240;
+}
+
+#watermark p {
+  text-align: center;
+  font-size: 22px;
+  padding-right: 10px;
+  color: white;
+}

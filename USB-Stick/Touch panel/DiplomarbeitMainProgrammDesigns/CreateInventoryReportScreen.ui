@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WithdrawItemScreen</class>
+ <widget class="QMainWindow" name="WithdrawItemScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>802</width>
+    <height>487</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="locale">
+   <locale language="English" country="Austria"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_ir1">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>280</y>
+      <width>541</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="locale">
+     <locale language="English" country="Austria"/>
+    </property>
+    <property name="text">
+     <string>alle items, welche einen lagerplatz besitzen</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pcb_logo">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>10</y>
+      <width>161</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="locale">
+     <locale language="English" country="Austria"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/icon.PNG</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_ir2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>350</y>
+      <width>541</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="locale">
+     <locale language="English" country="Austria"/>
+    </property>
+    <property name="text">
+     <string>alle items, welche eingespeichert sind</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_ir3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>420</y>
+      <width>541</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="locale">
+     <locale language="English" country="Austria"/>
+    </property>
+    <property name="text">
+     <string>alle items die keinen lagerplatz besitzen oder leer sind</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_email">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>220</y>
+      <width>801</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>To: {email}</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_title">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>180</y>
+      <width>801</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Create Inventory Report</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/userLoginLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:theme="@style/AppTheme.NoActionBar">
+
+    <TextView
+        android:id="@+id/txtTitleUser"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <EditText
+        android:id="@+id/lbl_Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:text="@string/txt_Login"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_width="108dp"
+        android:layout_height="28dp"
+        android:text="@string/txt_Username"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="108dp"
+        android:layout_height="28dp"
+        android:text="@string/txt_Password"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <CheckBox
+        android:id="@+id/chB_showPasswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onChbShowPasswordClicked"
+        android:text="@string/txt_showPaswd"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <TextView
+        android:id="@+id/txtWrongUP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wrongUP"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="15sp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="593dp" />
+
+    <EditText
+        android:id="@+id/lbl_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAlignment="textStart"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <Button
+        android:id="@+id/btnLogin_user"
+        android:layout_width="351dp"
+        android:layout_height="69dp"
+        android:onClick="btnLoginUserClicked"
+        android:text="@string/btn_Login"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="180dp"
+        android:layout_height="164dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/icon"
+        tools:layout_editor_absoluteY="125dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

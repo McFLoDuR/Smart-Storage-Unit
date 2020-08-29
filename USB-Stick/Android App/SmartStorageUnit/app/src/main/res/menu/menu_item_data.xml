@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mStore"
+        android:title="@string/storeItem"
+        android:orderInCategory="1"/>
+    <item
+        android:id="@+id/mWithdraw"
+        android:title="@string/withdrawItem"
+        android:orderInCategory="2"/>
+</menu>
